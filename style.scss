@@ -1,5 +1,7 @@
+@use "./common" as *;
+
 body {
-  background-color: #ffc;
+  background-color: $pink;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
